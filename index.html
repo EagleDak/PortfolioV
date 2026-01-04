@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Li - Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000d1a'/%3E%3Ctext x='50' y='70' font-family='Arial' font-size='60' font-weight='bold' fill='%2300d4ff' text-anchor='middle'%3EVL%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="grid-lines"></div>
+        <div class="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="glitch" data-text="VL">VL</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="line">HELLO, I'M</span>
+                    <span class="name glitch" data-text="VICTOR LI">VICTOR LI</span>
+                    <span class="line">FULL STACK DEVELOPER</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Crafting digital experiences with code
+                    <!-- <span class="cursor-blink">|</span> -->
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">VIEW WORK</a>
+                    <a href="#contact" class="btn btn-secondary">GET IN TOUCH</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="code-line"><span class="keyword">const</span> <span class="variable">developer</span> = {</code></pre>
+                        <pre><code><span class="code-line">  <span class="property">name</span>: <span class="string">'Victor Li'</span>,</code></pre>
+                        <pre><code><span class="code-line">  <span class="property">role</span>: <span class="string">'Full Stack Developer'</span>,</code></pre>
+                        <pre><code><span class="code-line">  <span class="property">location</span>: <span class="string">'Seattle, Washington, United States'</span>,</code></pre>
+                        <pre><code><span class="code-line">  <span class="property">passion</span>: <span class="string">'Building amazing things'</span></code></pre>
+                        <pre><code><span class="code-line">};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                ABOUT ME
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Full Stack Developer based in the United States, 
+                        dedicated to creating innovative web solutions that push the boundaries 
+                        of what's possible. With expertise spanning both frontend and backend 
+                        technologies, I bring ideas to life through clean, efficient code.
+                    </p>
+                    <p>
+                        My approach combines technical excellence with creative problem-solving, 
+                        ensuring every project delivers exceptional user experiences while 
+                        maintaining robust, scalable architecture.
+                    </p>
+                    <div class="tech-stack">
+                        <h3>Technologies I work with:</h3>
+                        <div class="tech-list">
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">TypeScript</span>
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="frame-glow"></div>
+                        <img src="profile.jpg" alt="Victor Li" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <span>VL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                SKILLS & EXPERTISE
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend</h3>
+                    <p>React, HTML5, CSS3, JavaScript, TypeScript, Tailwind CSS, Material UI</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, Python, Django, REST APIs, GraphQL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Database</h3>
+                    <p>PostgreSQL, MongoDB, MySQL, Redis, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Docker, Kubernetes, CI/CD, Git, GitHub Actions</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Design</h3>
+                    <p>UI/UX Design, Figma, Responsive Design, WebGL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools</h3>
+                    <p>VS Code, Webpack, Vite, Jest, ESLint, Postman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                FEATURED PROJECTS
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">VIEW PROJECT</a>
+                            <a href="#" class="project-link">GITHUB</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">VIEW PROJECT</a>
+                            <a href="#" class="project-link">GITHUB</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Real-Time Chat Application</h3>
+                        <p>Scalable chat application with WebSocket support, file sharing, and end-to-end encryption.</p>
+                        <div class="project-tags">
+                            <span>Socket.io</span>
+                            <span>Express</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">VIEW PROJECT</a>
+                            <a href="#" class="project-link">GITHUB</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management System</h3>
+                        <p>Collaborative project management tool with real-time updates, kanban boards, and analytics.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                GET IN TOUCH
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, 
+                        or opportunities to be part of your vision. Let's build something amazing together.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:victorli00417@gmail.com" class="contact-item">
+                            <span class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </span>
+                            <span>victorli00417@gmail.com</span>
+                        </a>
+                        <a href="https://github.com" class="contact-item" target="_blank">
+                            <span class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com" class="contact-item" target="_blank">
+                            <span class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="NAME" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="EMAIL" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="SUBJECT" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="MESSAGE" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Victor Li. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
